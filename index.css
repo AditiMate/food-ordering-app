@@ -1,0 +1,134 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nanum+Gothic&family=Quicksand&display=swap");
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 150px;
+  margin-left: 12px;
+}
+.nav-items {
+  padding: 20px;
+}
+.nav-items ul {
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+}
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.res-card {
+  border-radius: 20px;
+  margin: 11px;
+  padding: 5px;
+  width: 300px;
+}
+.search {
+  padding: 10px;
+}
+.search-box {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid;
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+.search-btn {
+  height: 45px;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: 1px solid;
+  margin: 10px;
+  background-color: rgb(243, 126, 53);
+  color: white;
+}
+.search-btn:hover {
+  color: black;
+  background-color: white;
+}
+.res-logo {
+  width: 100%;
+  height: 40%;
+}
+.filter-btn {
+  height: 45px;
+  width: 220px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: rgb(243, 126, 53);
+  color: white;
+  cursor: pointer;
+}
+.filter-btn:hover {
+  color: black;
+  background-color: white;
+}
+.card-name {
+  font-size: 20px;
+  font-weight: 300;
+}
+.card-cuisine,
+.card-rating,
+.card-cost,
+.card-string {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  width: 250px;
+  height: 400px;
+  margin: 40px;
+  background-color: #b4b4b3;
+}
+.login {
+  font-size: 20px;
+  height: 40px;
+  width: 80px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(243, 126, 53);
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.body-link{
+  text-decoration: none;
+  color: black;
+}
+.user-card{
+  padding: 10px;
+  border:  1px solid;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
